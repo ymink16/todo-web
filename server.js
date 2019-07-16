@@ -4,8 +4,8 @@ const fs = require('fs');
 
 const Controller = require('./Controller/controller');
 const controller = new Controller();
-const PORT = process.env.PORT;
 
+const PORT = process.env.PORT;
 const fileType = {
 	'.ico': 'image/x-icon',
 	'.html': 'text/html',
@@ -160,6 +160,6 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-	console.log('8081포트에서 대기중');
+	console.log('서버 대기중');
 });
 

@@ -1,7 +1,7 @@
 {
   "name": "todo-web",
   "version": "1.0.0",
-  "description": "node.js http모듈을 이용하여 Todo 구현",
+  "description": "---",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
